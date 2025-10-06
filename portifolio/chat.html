@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ======= Header / Navbar ======= -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Murilo de Toledo</div>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <a href="cv.pdf" download="cv.pdf" class="btn-cv">Baixar CV</a>
+    </nav>
+  </header>
+
+  <!-- ======= Hero ======= -->
+  <section class="hero" id="home">
+    <div class="perfil">
+      <img src="https://via.placeholder.com/120" alt="Foto de Perfil">
+      <h1>Seu Nome</h1>
+      <h2>Software Engineer / Full-Stack</h2>
+      <p>Desenvolvedor focado em experiências acessíveis, performáticas e escaláveis.<br>React/Next.js, Node.js e AWS.</p>
+      <div class="links">
+        <a href="#">E-mail</a>
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Website</a>
+      </div>
+      <p>São Paulo, Brasil - 2025</p>
+    </div>
+
+    <div class="skills-top">
+    <h3>Stack de Especialidade</h3>
+
+    <div class="skill-bar">
+      <span>React / Next.js</span>
+      <div class="bar"><div class="fill" style="width: 100%;"></div></div>
+    </div>
+
+    <div class="skill-bar">
+      <span>TypeScript</span>
+      <div class="bar"><div class="fill" style="width: 100%;"></div></div>
+    </div>
+
+    <div class="skill-bar">
+      <span>Node.js / Express</span>
+      <div class="bar"><div class="fill" style="width: 80%;"></div></div>
+    </div>
+
+    <div class="skill-bar">
+      <span>AWS / Serverless</span>
+      <div class="bar"><div class="fill" style="width: 80%;"></div></div>
+    </div>
+  </div>
+</section>
+
+  <!-- ======= Sobre ======= -->
+  <section id="sobre">
+    <h2>Sobre mim</h2>
+    <p>
+      Atuo criando produtos com foco em impacto de negócio e experiência do usuário.
+      Acredito em boas práticas, testes, automação e colaboração.
+    </p>
+    <div class="disponibilidade">
+      <p><strong>Disponibilidade:</strong> Aberto</p>
+      <p><strong>Freelance:</strong> Sim</p>
+      <p><strong>Idiomas:</strong> PT-BR / EN</p>
+    </div>
+  </section>
+
+  <!-- ======= Skills ======= -->
+  <section id="skills">
+  <h2>Habilidades</h2>
+
+  <div class="skill-bar">
+    <span>PostgreSQL / DynamoDB</span>
+    <div class="bar"><div class="fill" style="width: 80%;"></div></div>
+  </div>
+
+  <div class="skill-bar">
+    <span>CI/CD / Tests</span>
+    <div class="bar"><div class="fill" style="width: 80%;"></div></div>
+  </div>
+
+  <div class="skill-bar">
+    <span>Design System / CSS</span>
+    <div class="bar"><div class="fill" style="width: 100%;"></div></div>
+  </div>
+
+  <div class="skill-bar">
+    <span>A11y / Performance</span>
+    <div class="bar"><div class="fill" style="width: 80%;"></div></div>
+  </div>
+</section>
+<!-- ======= Projetos ======= -->
+<section id="projetos">
+  <h2>Projetos</h2>
+  <p>Seleção com maior impacto.</p>
+
+  <div class="projetos-grid">
+    <!-- Projeto 1 -->
+    <div class="projeto">
+      <h3>Acelerador de Landing Pages</h3>
+      <p>Framework estático com temas e i18n.</p>
+      <div class="tags">
+        <span class="tag">Frontend</span>
+        <span class="tag">Open Source</span>
+      </div>
+      <a href="#" class="btn-repo">Ver repositório →</a>
+    </div>
+
+    <!-- Projeto 2 -->
+    <div class="projeto">
+      <h3>Observabilidade Serverless</h3>
+      <p>Logs, métricas e traces com OpenTelemetry.</p>
+      <div class="tags">
+        <span class="tag">DevOps</span>
+        <span class="tag">Backend</span>
+      </div>
+      <a href="#" class="btn-repo">Ver repositório →</a>
+    </div>
+
+    <!-- Projeto 3 -->
+    <div class="projeto">
+      <h3>API de Pagamentos</h3>
+      <p>Idempotência, webhooks e reconciliação.</p>
+      <div class="tags">
+        <span class="tag">Backend</span>
+        <span class="tag">Full-Stack</span>
+      </div>
+      <a href="#" class="btn-repo">Ver repositório →</a>
+    </div>
+  </div>
+</section>
+  <!-- ======= Experiência ======= -->
+  <section id="experiencia">
+    <h2>Experiência</h2>
+    <div class="experiencia-item">
+      <h3>Senior Software Engineer – Empresa XPTO</h3>
+      <span>2023 — Atual</span>
+      <ul>
+        <li>Migração para serverless reduziu 35% de custo.</li>
+        <li>Design system acelerou entregas em 2x.</li>
+        <li>SLAs reduziram MTTR em 40%.</li>
+      </ul>
+    </div>
+
+    <div class="experiencia-item">
+      <h3>Full-Stack Developer — Startup ABC</h3>
+      <span>2020 — 2023</span>
+      <ul>
+        <li>Microfrontends e BFF com Next.js.</li>
+        <li>Checkout com 1M+ transações/mês.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ======= Formação e Certificações ======= -->
+  <section id="formacao">
+    <h2>Formação & Certificações</h2>
+    <p>Universidade Federal — Bacharelado em Ciência da Computação (2015–2019)</p>
+    <ul>
+      <li>AWS Certified Developer – Associate</li>
+      <li>Google Mobile Web Specialist</li>
+      <li>Scrum Fundamentals</li>
+    </ul>
+  </section>
+
+  <!-- ======= Blog ======= -->
+  <section id="blog">
+    <h2>Blog</h2>
+    <div class="blog-post">
+      <h3>Como medir performance web além do Lighthouse</h3>
+      <span>10/08/2025</span>
+      <p>Core Web Vitals, RUM e experimentos de otimização.</p>
+    </div>
+    <div class="blog-post">
+      <h3>Estratégias de cache para APIs em escala</h3>
+      <span>02/09/2025</span>
+      <p>Idempotência, TTL dinâmico e invalidação inteligente.</p>
+    </div>
+  </section>
+
+  <!-- ======= Contato ======= -->
+  <section id="contato">
+    <h2>Fale comigo</h2>
+    <form>
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <textarea name="mensagem" placeholder="Mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <p>© 2025 Toledo, Murilo. Todos os direitos reservados.</p>
+    <a href="#home">Voltar ao topo ↑</a>
+  </footer>
+
+</body>
+</html>
