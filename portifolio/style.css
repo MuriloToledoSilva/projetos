@@ -20,7 +20,7 @@ body {
 
 /* ======= Navbar ======= */
 header {
-  background: #11131a;
+  background: #0000;
   padding: 15px 40px;
   position: fixed;
   top: 0;
@@ -32,6 +32,12 @@ header {
   border-bottom: 1px solid #222;
 }
 
+
+
+section.hero {
+  background: linear-gradient(to bottom, #18212e, black) center  no-repeat;
+  
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -95,7 +101,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
   gap: 40px;
-  padding-top: 140px;
+  padding-top: 120px;
 }
 
 .perfil {
